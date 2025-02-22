@@ -17,7 +17,7 @@ app.db = db;
 
 db.defaults({ users: [] }).write();
 
-app.get('/users', async function(req, res) {
+app.get('/user', async function(req, res) {
   res.send(db.get('users').value());
 });
 
