@@ -4,7 +4,7 @@ const helper = require("../helpers.js")
 describe('Task API Routes', function() {
 
   // In this test it's expected a task list of two tasks
-  describe('GET /user', function() {
+  describe('GET /users', function() {
       it('returns a list of users', function(done) {
           request.get('/users')
               .expect(200)
